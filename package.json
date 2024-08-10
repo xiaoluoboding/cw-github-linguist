@@ -1,0 +1,23 @@
+{
+  "name": "cw-github-linguist",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "deploy": "wrangler deploy",
+    "dev": "wrangler dev",
+    "start": "wrangler dev",
+    "test": "vitest",
+    "cf-typegen": "wrangler types"
+  },
+  "devDependencies": {
+    "@cloudflare/vitest-pool-workers": "^0.4.21",
+    "@cloudflare/workers-types": "^4.20240806.0",
+    "@types/js-yaml": "^4.0.9",
+    "typescript": "^5.5.4",
+    "vitest": "1.5.0",
+    "wrangler": "^3.70.0"
+  },
+  "dependencies": {
+    "js-yaml": "^4.1.0"
+  }
+}
